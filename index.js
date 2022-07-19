@@ -23,21 +23,21 @@
 // }
 // console.log(Task3(5));
 
-//Task 4 
+// //Task 4 
 
-// const gen = {
-// 	"-3": ["great grandfather",	"great grandmother"],
-// 	"-2": ["grandfather","grandmother"],
-// 	"-1":["father",	"mother"],
-// 	"0": ["me!", "me!"],
-// 	"1":["son",	"daughter"],
-// 	"2"	:["grandson","granddaughter"],
-// 	"3" :["great grandson","great granddaughter"]
-// }
-// function generation(x, y) {
-// 	return y=="m"?gen[x][0]:gen[x][1];
-// }
-// console.log(generation(0,"m"))
+const gen = {
+	"-3": ["great grandfather",	"great grandmother"],
+	"-2": ["grandfather","grandmother"],
+	"-1":["father",	"mother"],
+	"0": ["me!", "me!"],
+	"1":["son",	"daughter"],
+	"2"	:["grandson","granddaughter"],
+	"3" :["great grandson","great granddaughter"]
+}
+function generation(x, y) {
+	return y=="m"?gen[x][0]:gen[x][1];
+}
+console.log(generation(1,"f"))
 
 //Task 5
 // function makePlusFunction(baseNum) {
@@ -92,3 +92,4 @@
 //Task 10 
 
 //Font-weight uses a "value" to determine the boldness or lightness of your text
+
